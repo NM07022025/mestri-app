@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-400 via-indigo-500 to-purple-600 p-8">
+    <div className="min-h-screen bg-rainbow p-8">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-white text-4xl md:text-5xl font-extrabold drop-shadow mb-4">
           Welcome to Mesthri

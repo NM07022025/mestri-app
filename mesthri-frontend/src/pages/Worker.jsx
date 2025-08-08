@@ -50,7 +50,7 @@ export default function Worker() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-400 to-purple-500">
+    <div className="min-h-screen bg-rainbow">
       <Navbar />
       <div className="flex items-center justify-center min-h-[calc(100vh-64px)] p-4">
         <div className="bg-white p-8 rounded-xl shadow-xl w-full max-w-md">

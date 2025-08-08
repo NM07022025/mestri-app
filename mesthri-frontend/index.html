@@ -12,7 +12,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
-        theme: { extend: {} },
+        theme: {
+          extend: {
+            backgroundImage: {
+              rainbow: "linear-gradient(135deg, #ff7e5f, #feb47b, #86a8e7, #91eae4)",
+            },
+          },
+        },
       };
     </script>
   </head>
