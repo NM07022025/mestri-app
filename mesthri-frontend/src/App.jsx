@@ -8,16 +8,18 @@ import Login from "./pages/Login";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/customer" element={<Customer />} />
-        <Route path="/mestri" element={<Mestri />} />
-        <Route path="/worker" element={<Worker />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="*" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="min-h-screen bg-rainbow text-white">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/customer" element={<Customer />} />
+          <Route path="/mestri" element={<Mestri />} />
+          <Route path="/worker" element={<Worker />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
