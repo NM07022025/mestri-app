@@ -4,6 +4,7 @@ import Customer from "./pages/Customer";
 import Mestri from "./pages/Mestri";
 import Worker from "./pages/Worker";
 import Search from "./pages/Search";
+import Login from "./pages/Login";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/mestri" element={<Mestri />} />
         <Route path="/worker" element={<Worker />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
